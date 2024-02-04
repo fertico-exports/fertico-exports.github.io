@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fertico Exports</title>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/assets/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/assets/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/assets/favicon/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="/assets/favicon/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<meta name="apple-mobile-web-app-title" content="Fertico Exports" />
+		<meta name="application-name" content="Fertico Exports" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&family=Quicksand:wght@500;600;700&family=Merienda:wght@400;500&family=Dancing+Script&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body id="home">
+		<header
+			class="text-gray-600 body-font border-b-2 sticky top-0 bg-white z-30"
+		>
+			<div
+				class="container mx-auto flex flex-wrap p-1 md:py-2 md:px-4 flex-col md:flex-row items-center"
+			>
+				<a
+					class="flex title-font font-medium items-center text-green-900"
+					href="#home"
+				>
+					<img
+						class="h-16 md:h-16"
+						src="assets/fertico-logo-transparent.png"
+						alt="Fertico Exports"
+					/>
+					<!--<img
+						class="w-16 md:w-20"
+						src="assets/logo.png"
+						alt="Fertico Exports"
+					/>
+					<h2
+						class="ml-1 text-xl md:text-2xl logo font-['Quicksand'] font-bold"
+					>
+						Fertico Exports
+					</h2>-->
+				</a>
+				<nav
+					class="md:ml-auto flex flex-wrap items-center text-base justify-center hidden md:block"
+				>
+					<a
+						href="#about-us"
+						class="mr-8 text-teal-950 hover:text-gray-900 font-['Poppins']"
+						>About Us</a
+					>
+					<a
+						href="#products"
+						class="mr-8 text-teal-950 hover:text-gray-900 font-['Poppins']"
+						>Products</a
+					>
+					<a
+						href="#contact-us"
+						class="bg-green-900 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full font-['Poppins'] animate-pulse hover:animate-none"
+						>Contact Us</a
+					>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="bg-green-50 p-6 lg:px-12 lg:py-24">
+				<div
+					class="container mx-auto flex flex-wrap flex-col md:flex-row items-center"
+				>
+					<div
+						class="flex flex-col w-full lg:w-2/5 justify-center lg:items-start text-center lg:text-left"
+					>
+						<h1
+							class="my-4 text-2xl md:text-3xl lg:text-5xl font-bold leading-tight font-['Quicksand'] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] text-green-900"
+						>
+							Welcome to Fertico Exports
+						</h1>
+						<p
+							class="leading-normal text-xl lg:text-3xl mb-8 md:mb-0 lg:mb-8 font-['Dancing_Script']"
+						>
+							We are a leading exporter of Wheat, Maize, Soybean, Cheackpeas
+							from the "Heart of India".
+						</p>
+						<a
+							class="bg-green-900 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full animate-bounce hover:animate-none shadow-2xl hidden lg:inline"
+							href="#contact-us"
+						>
+							Contact Us
+						</a>
+					</div>
+					<div class="w-full lg:w-3/5 pb-6 md:py-6 flex justify-center">
+						<img
+							class="w-full md:w-4/5 z-10 rounded shadow-2xl bg-zinc-500 shadow-zinc-500/75 hover:shadow-zinc-500/100 transition-shadow duration-300 ease-in-out"
+							src="assets/banner.png"
+							alt="Fertico Exports"
+						/>
+					</div>
+				</div>
+			</section>
+			<section class="bg-green-900 px-6 py-8 md:px-12 md:py-24" id="products">
+				<div class="text-center text-white container mx-auto">
+					<h2 class="text-2xl md:text-4xl font-semibold">
+						Our Signature Crops
+					</h2>
+					<p class="py-4 md:text-xl md:py-8 max-w-6xl mx-auto">
+						Each product in our lineup is carefully cultivated, harvested, and
+						processed to ensure it retains its natural goodness, providing you
+						with the finest from Madhya Pradesh.
+					</p>
+				</div>
+				<div
+					class="container cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 mx-auto"
+				>
+					<div
+						class="card bg-white rounded-lg p-6 shadow-lg hover:bg-gray-200 hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer"
+					>
+						<img
+							src="assets/maize.jpg"
+							alt="Maize"
+							class="w-full h-64 object-cover mb-4 rounded"
+						/>
+						<h4 class="text-2xl font-bold mb-2">Maize</h4>
+						<p class="text-gray-500">
+							Grown in the fertile plains of MP, our maize is renowned for its
+							plump kernels, sweet taste, and vibrant yellow color. Whether for
+							human consumption, livestock feed, or industrial use, our maize
+							meets the highest quality standards.
+						</p>
+					</div>
+					<div
+						class="card bg-white rounded-lg p-4 md:p-6 shadow-lg hover:bg-gray-200 hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer"
+					>
+						<img
+							src="assets/chickpea.avif"
+							alt="Chickpea"
+							class="w-full h-64 object-cover mb-4 rounded"
+						/>
+						<h4 class="text-2xl font-bold mb-2">Chickpea</h4>
+						<p class="text-gray-500">
+							Explore the nutty goodness of Madhya Pradesh chickpeas. Rich in
+							protein and versatile in the kitchen, our chickpeas are a staple
+							in Indian cuisine and a favorite worldwide.
+						</p>
+					</div>
+					<div
+						class="card bg-white rounded-lg p-6 shadow-lg hover:bg-gray-200 hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer"
+					>
+						<img
+							src="assets/wheat.jpg"
+							alt="Wheat"
+							class="w-full h-64 object-cover mb-4 rounded"
+						/>
+						<h4 class="text-2xl font-bold mb-2">Wheat</h4>
+						<p class="text-gray-500">
+							From the golden fields of MP, our wheat stands out for its high
+							gluten content and nutritional value. Ideal for baking, cooking,
+							or processing into various products, our wheat is a symbol of
+							quality and wholesomeness.
+						</p>
+					</div>
+					<div
+						class="card bg-white rounded-lg p-6 shadow-lg hover:bg-gray-200 hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer"
+					>
+						<img
+							src="assets/soybean.jpg"
+							alt="Soybean"
+							class="w-full h-64 object-cover mb-4 rounded"
+						/>
+						<h4 class="text-2xl font-bold mb-2">Soybean</h4>
+						<p class="text-gray-500">
+							MP soybeans are prized for their protein-rich composition and
+							versatility. Whether you're looking for soybean for culinary use
+							or industrial applications, our sourced soybeans guarantee
+							excellence.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section
+				class="bg-blue-100 px-12 py-24 bg-repeat bg-[url('/assets/bg.png')] bg-[length:30px_30px]"
+				id="about-us"
+			>
+				<div
+					class="container mx-auto flex flex-wrap flex-col md:flex-row items-center"
+				>
+					<div class="w-full md:w-3/5 py-6 flex justify-center">
+						<img
+							class="w-full md:w-4/5 z-10 bg-clip-border"
+							src="assets/bg-map-01.png"
+							alt="Fertico Exports"
+						/>
+					</div>
+					<div
+						class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+					>
+						<h1
+							class="my-4 text-2xl md:text-5xl font-bold leading-tight font-['Quicksand'] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]"
+						>
+							The MP Advantage
+						</h1>
+						<p class="leading-normal text-2xl mb-8 font-['Dancing_Script']">
+							Madhya Pradesh, known as the "Heart of India," is a treasure trove
+							of agricultural abundance. With vast stretches of fertile land and
+							a favorable climate, our state is the ideal hub for cultivating
+							maize, chickpea, wheat, and soybean. We take pride in harnessing
+							these natural gifts to offer you products that reflect the purity
+							and authenticity of the region.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section
+				class="bg-gradient-to-r from-green-800 via-green-900 to-green-900 px-12 py-20"
+				id="contact-us"
+			>
+				<div class="text-center text-white container mx-auto">
+					<h2 class="text-4xl font-semibold">Connect with Fertico Exports</h2>
+					<p class="py-8 text-xl max-w-4xl mx-auto">
+						Ready to embark on a journey through the flavors of Madhya Pradesh?
+						Contact us for product inquiries, bulk orders, or partnership
+						opportunities.
+					</p>
+					<!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+					<form
+						action="https://forms.zohopublic.com/fertico-exports/form/ContactUs/formperma/swXWHCkIIGKKHHiI0FKTmiiEpBh7Ate8t9QDr-PbuZE/htmlRecords/submit"
+						name="form"
+						id="form"
+						method="POST"
+						accept-charset="UTF-8"
+						enctype="multipart/form-data"
+					>
+						<div
+							class="flex flex-col text-left backdrop-blur bg-white/30 backdrop-opacity-50 p-8 rounded max-w-4xl mx-auto"
+						>
+							<input
+								type="hidden"
+								name="zf_referrer_name"
+								value=""
+							/><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+							<input
+								type="hidden"
+								name="zf_redirect_url"
+								value=""
+							/><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+							<input
+								type="hidden"
+								name="zc_gad"
+								value=""
+							/><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+							<div class="flex flex-row gap-8 w-full">
+								<!--Name-->
+								<div class="flex flex-col gap-2 w-1/2">
+									<label
+										for="Name_First"
+										class="block text-white font-['Poppins']"
+										>First Name <em class="text-red-400">*</em></label
+									>
+									<input
+										type="text"
+										maxlength="255"
+										name="Name_First"
+										fieldType="7"
+										placeholder=""
+										required
+										class="block w-full rounded-md border-0 p-1.5 text-gray-900 placeholder:text-gray-400 sm:text-sm"
+									/>
+								</div>
+								<div class="flex flex-col gap-2 w-1/2">
+									<label
+										for="Name_Last"
+										class="block text-white font-['Poppins']"
+										>Last Name <em class="text-red-400">*</em></label
+									>
+									<input
+										type="text"
+										maxlength="255"
+										name="Name_Last"
+										fieldType="7"
+										placeholder=""
+										required
+										class="block w-full rounded-md border-0 p-1.5 text-gray-900 placeholder:text-gray-400 sm:text-sm"
+									/>
+								</div>
+							</div>
+
+							<!--Email-->
+							<div class="flex flex-col gap-2 mt-4">
+								<label for="Email" class="block text-white font-['Poppins']">
+									Email
+									<em class="text-red-400">*</em>
+								</label>
+								<input
+									type="text"
+									maxlength="255"
+									name="Email"
+									value=""
+									fieldType="9"
+									placeholder=""
+									required
+									class="block w-full rounded-md border-0 p-1.5 text-gray-900 placeholder:text-gray-400 sm:text-sm"
+								/>
+							</div>
+
+							<!--Multi Line-->
+							<div class="flex flex-col gap-2 mt-4">
+								<label
+									for="MultiLine"
+									class="block text-white font-['Poppins']"
+								>
+									Your Message
+									<em class="text-red-400">*</em>
+								</label>
+								<textarea
+									name="MultiLine"
+									maxlength="65535"
+									placeholder=""
+									required
+									class="block w-full rounded-md border-0 p-1.5 text-gray-900 placeholder:text-gray-400 sm:text-sm"
+								></textarea>
+							</div>
+							<button
+								type="submit"
+								class="border border-white inline mx-auto mt-8 rounded px-4 py-2 text-white hover:bg-white hover:text-green-900 transition-colors duration-300 ease-in-out"
+							>
+								Submit
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="bg-gray-200">
+			<div
+				class="container mx-auto px-6 py-4 flex justify-between items-center text-gray-800"
+			>
+				<p class="">Fertico Exports</p>
+				<p class="">© All rights reserved</p>
+			</div>
+		</footer>
+	</body>
+</html>
